@@ -1,1 +1,2 @@
-this
+#!/bin/bash
+gcc -S "$CFILE"
