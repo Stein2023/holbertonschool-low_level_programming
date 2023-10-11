@@ -10,8 +10,8 @@
  */
 int main(void)
 {
-    /* Using puts function to print the message with a newline character */
-    puts("Programming is like building a multilingual puzzle,");
+    /* Using puts function to print the message without a comma and with a newline character */
+    puts("Programming is like building a multilingual puzzle");
 
     /* Using puts function to print "0" with a newline character */
     puts("0");
@@ -19,4 +19,3 @@ int main(void)
     /* Program ends with a return value of 0 */
     return (0);
 }
-
