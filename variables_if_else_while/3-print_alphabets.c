@@ -14,12 +14,12 @@
 		a++;
 
 	}
-	char A = 'A';
+	char B = 'A';
 
-	while (A <= 'Z')
+	while (B <= 'Z')
 	{
-	putchar(A);
-		a++;
+	putchar(B);
+		B++;
 	}
 
 	putchar ('\n');
