@@ -3,25 +3,17 @@
 * main - Entry point
 * Return: Always 0 (Success)
 */
-	int main(void)
+int main(void)
+{
+	char letra;
 
-	{
-	char a = 'a';
+	for (letra = 'a'; letra <= 'z'; letra++)
+		putchar(letra);
 
-	while (a <= 'z')
-	{
-		putchar(a);
-		a++;
 
-	}
-	char A = 'A';
-
-	while (B <= 'Z')
-	{
-	putchar(A);
-		A++;
-	}
+	for (letra = 'A'; letra <= 'Z'; letra++)
+		putchar(letra);
 
 	putchar ('\n');
 	return (0);
-	}
+}
