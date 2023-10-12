@@ -5,10 +5,15 @@
  */
 
 
-void print_alphabet(void);
-
-	int main(void)
+void print_alphabet(void)
 	{
-		printf("abcdefghijklmnopqrstuvwxyz\n");
+
+	char lower = 'a';
+
+	for (lower = 'a'; lower <= 'z'; lower++)
+	_putchar(lower);
+
+	_putchar('\n');
+
 	}
 
