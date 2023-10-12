@@ -11,9 +11,9 @@
 
 	{
 
-	int n = 'c';
+	int n = c;
 
-	if (n == c)
+	if (c >= 'a' && c <= 'z')
 	{
 	return (1);
 	}
