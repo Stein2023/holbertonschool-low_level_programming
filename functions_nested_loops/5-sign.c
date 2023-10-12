@@ -27,5 +27,6 @@
 	{
 	return (-1);
 	putchar (-1);
+	}
 
 	}
