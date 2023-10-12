@@ -10,10 +10,10 @@
  */
 	int print_sign(int n)
 	{
-	 
-	putchar ('+');
+
 	if (n > 0)
 	{
+	putchar ('+');
 	return (1);
 	}
 
