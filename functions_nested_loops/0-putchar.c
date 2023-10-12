@@ -2,10 +2,12 @@
 #include "main.h"
 /**
  * main - this is to print a putchar
+ *
+ * Return: 0
  */
 
 	int main(void)
 	{
-	printf("put_char\n");
+	printf("_putchar\n");
 	return (0);
 	}
