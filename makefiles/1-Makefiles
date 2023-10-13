@@ -1,0 +1,8 @@
+CC = gcc
+SRC = main.c school.c
+all: $(EXECUTABLE)
+$(EXECUTABLE): $(SRCS)
+	$(CC) $(SRCS) -o $(EXECUTABLE)
+clean:
+	rm -f $(EXECUTABLE)
+
