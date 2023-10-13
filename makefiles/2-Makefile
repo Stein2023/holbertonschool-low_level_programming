@@ -4,4 +4,4 @@ NAME = school
 OBJ = $(SRC:.c=.o)
 all: $(NAME)
 $(NAME): $(SRCS)
-	$(CC) $(SRCS) -o $(NAME) 
+	$(CC) $(SRCS) -o $(NAME)
