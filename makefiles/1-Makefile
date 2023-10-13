@@ -3,7 +3,6 @@ SRC = main.c school.c
 EXECUTABLE = school
 all: $(EXECUTABLE)
 $(EXECUTABLE): $(SRCS)
-	$(CC) $(SRCS) -o $(EXECUTABLE)
+        $(CC) $(SRCS) -o $(EXECUTABLE)
 clean:
-	rm -f $(EXECUTABLE)
-
+	rm -f (EXECUTABLE)
