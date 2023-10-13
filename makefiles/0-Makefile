@@ -1,9 +1,8 @@
- CC = gcc
- SRCS = main.c school.c
- EXECUTABLE = school
+CC = gcc
+SRCS = main.c school.c
+EXECUTABLE = school
 all: $(EXECUTABLE)
 $(EXECUTABLE): $(SRCS)
-$(CC) $(SRCS) -o $(EXECUTABLE)
+	$(CC) $(SRCS) -o $(EXECUTABLE)
 clean:
 	rm -f $(EXECUTABLE)
-
