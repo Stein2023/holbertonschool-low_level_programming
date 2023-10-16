@@ -1,7 +1,8 @@
 #include "main.h"
 /**
+ * print_diagonal - this
  *
- *
+ * @n: this
  *
  */
 
