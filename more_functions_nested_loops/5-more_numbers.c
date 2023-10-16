@@ -15,7 +15,7 @@ for (a = 0; a < 10; a++)
 
 {
 
-	if ( c >= 10)
+	if (c >= 10)
 
 	_putchar('1');
 
@@ -23,7 +23,7 @@ for (a = 0; a < 10; a++)
 
 
 }
-        _putchar('\n');
+	_putchar('\n');
 }
 
 }
