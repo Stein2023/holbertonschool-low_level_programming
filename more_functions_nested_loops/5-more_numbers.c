@@ -20,7 +20,7 @@ for (a = 0; a < 10; a++)
 
 
 	for (c = 0; c<= 4; c++)
-	_putchar(c);
+	_putchar(c + 48);
 
 }
 }
