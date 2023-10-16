@@ -11,7 +11,7 @@ int c;
 int a;
 for (a = 0; a < 10; a++)
 {
-i	for (c = 48; c <= 57; c++)
+	for (c = 48; c <= 57; c++)
 
 {
 	_putchar(c);
