@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * main - check 
+ * main - check
  *
  * Return: Always 0.
  * @s: letter
@@ -10,11 +10,10 @@
 
 int _strlen(char *s)
 {
-	char *str;
 	int len;
 
-	str = "Eithan";
-	len = _strlen(*str);
+	s = "Eithan";
+	len = _strlen(s);
 	printf("%d\n", len);
 	return (0);
 }
