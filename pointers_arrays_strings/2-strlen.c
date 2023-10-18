@@ -3,17 +3,19 @@
 
 /**
  * main - check
- *
+ * _strlen - this
  * Return: Always 0.
  * @s: letter
  */
 
 int _strlen(char *s)
 {
-	int len;
+	int len = 0;
 
-	s = "Eithan";
-	len = _strlen(s);
-	printf("%d\n", len);
-	return (0);
+	while (s[len] != '\0')
+{
+		len++;
+
+}
+	return (len);
 }
