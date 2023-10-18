@@ -1,19 +1,28 @@
-#include "main.h"
 #include <stdio.h>
+#include "main.h"
 
 /**
- * rev_string - this
+ * print_rev - this
  * @s: this
+ *
  */
 
-void rev_string(char *s)
+void print_rev(char *s)
 {
+        int i, j, len;
 
-	s = "My school";
+        i = 0;
 
-	printf("%s\n", s);
-	rev_string(s);
-	printf("%s\n", s);
+        while (s[i] != '\0')
+{
+        i++;
+}
 
+        len = i;
+
+for (j = len - 1; j >= 0; j--)
+{
+        putchar(s[j]);
 
 }
+
