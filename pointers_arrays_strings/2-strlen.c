@@ -14,7 +14,7 @@ int _strlen(char *s)
 	int len;
 
 	str = "Eithan";
-	len = _strlen(str);
+	len = _strlen(*str);
 	printf("%d\n", len);
 	return (0);
 }
