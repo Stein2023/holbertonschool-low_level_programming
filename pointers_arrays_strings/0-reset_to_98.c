@@ -4,7 +4,8 @@
 /**
  * reset_to_98 - this
  * main - pointer
- * Return: 0 if works 
+ * Return: 0 if works
+ * @n: this
  */
 
 
