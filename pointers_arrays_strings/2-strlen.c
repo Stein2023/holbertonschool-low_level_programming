@@ -2,9 +2,8 @@
 #include "main.h"
 
 /**
- * main - check
  * _strlen - this
- * Return: Always 0.
+ * Return: Always
  * @s: letter
  */
 
