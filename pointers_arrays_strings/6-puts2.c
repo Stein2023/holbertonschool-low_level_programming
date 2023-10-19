@@ -2,7 +2,6 @@
 #include "main.h"
 
 /**
- *
  * puts2 - the function
  * Return: value
  * @str: the variable
@@ -22,7 +21,7 @@ void puts2(char *str)
 		len++;
 	}
 
-	for (i = 0; i < len; i +=2 )
+	for (i = 0; i < len; i += 2)
 	{
 		printf("%c", str[i]);
 
