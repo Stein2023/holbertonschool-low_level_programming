@@ -2,9 +2,10 @@
 #include "main.h"
 
 /**
- *
- *
- *
+ * print_array - array
+ * @a: letter
+ * @n: letter
+ * @i: letter
  */
 
 void print_array(int *a, int n) 
