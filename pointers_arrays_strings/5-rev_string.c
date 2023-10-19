@@ -6,7 +6,6 @@
  * @s: this
  *
  */
-
 void print_rev(char *s)
 {
 	char tmp;
