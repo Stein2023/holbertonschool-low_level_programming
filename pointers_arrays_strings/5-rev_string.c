@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * print_rev - this
+ * rev_string - this
  * @s: this
  *
  */
