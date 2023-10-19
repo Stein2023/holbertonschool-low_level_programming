@@ -1,51 +1,26 @@
-#include <stdio.h>
 #include "main.h"
-
 /**
- * puts2 - this
- * @start_index - this
- * @str: cositas
+ *puts_half - function that prints half of a string, followed by a new line.
+ *
+ *@str: This is the input string
  */
-
-void puts2(char *str)
+void puts_half(char *str)
 {
+	int index, half;
 
-	int len, start_index;
+	index = 0;
+	while (str[index] != '\0')
+		index++;
 
-	len = 0;
+	half = index / 2;
 
+	if (index % 2 == 1)
+		half++;
 
-	while (str[len] != '\0')
-
+	while (half < index)
 	{
-
-		len++;
-
+		_putchar(str[half]);
+		half++;
 	}
-
-	if (len % 2 == 0)
-
-	{
-		start_index = len / 2;
-
-	}
-
-	else
-
-	{
-
-		start_index = (len - 1) / 2;
-
-	}
-
-	int i = start_index;
-
-	for (i < len; i++;)
-	{
-	printf("%c", str[i]);
-
-	}
-
-	printf("\n");
-
+	_putchar('\n');
 }
