@@ -13,21 +13,21 @@ void puts2(char *str)
 
 {
 
-int len;
+	int i, len;
 
-len = 0;
+	len = 0;
 
-while (str[len] != '\0')
-{
-	len++;
-}
+	while (str[len] != '\0')
+	{
+		len++;
+	}
 
-for (int i = 0; i < len; i +=2 )
-{
-	printf("%c", str[i]);
+	for (i = 0; i < len; i +=2 )
+	{
+		printf("%c", str[i]);
 
-}
+	}
 
-printf("\n");
+	printf("\n");
 
 }
