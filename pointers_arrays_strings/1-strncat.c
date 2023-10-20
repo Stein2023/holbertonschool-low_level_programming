@@ -2,6 +2,7 @@
 #include "main.h"
 
 /**
+ * _strncat - this is the function
  * @dest: a variable
  * @src: a variable
  * @n: a variable
