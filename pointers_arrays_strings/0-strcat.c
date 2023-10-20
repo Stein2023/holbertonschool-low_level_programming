@@ -5,6 +5,8 @@
  * _strcat - the function
  * @dest: destination
  * @src: source
+ *
+ * Return: the value of the concotion
  */
 
 char *_strcat(char *dest, char *src)
