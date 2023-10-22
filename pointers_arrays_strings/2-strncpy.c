@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * *_strcpy - See description
+ * _strncpy - See description
  * @dest: char type string
  * @src: char type string
  * @n: the variable
