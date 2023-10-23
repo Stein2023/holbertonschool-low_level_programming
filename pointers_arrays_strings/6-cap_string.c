@@ -1,10 +1,17 @@
 #include "main.h"
 
+/**
+ * cap_string - the function
+ * @entry - the variable
+ *
+ *
+ */
+
 char *cap_string(char *entry)
 {
 	int index, count;
 
-	char chars[] = {' ', ',', ';', '.', '!', '?', '"', '(', ')', '{', '}', '\t', '\n', '\0'};
+	char chars[] = {',', ';', '.', '!', '?', '"', '(', ')', '{', '}', '\t', '\n', '\0'};
 
 	for (index = 0; entry[index] != '\0'; index++)
 	{
