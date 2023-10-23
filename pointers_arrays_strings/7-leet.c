@@ -26,16 +26,16 @@ int j;
 			if (letters[i] == lookup[j])
 
 
-	{
-		letters[i] = rep[j];
+			{
+				letters[i] = rep[j];
 
-		break;
+				break;
+
+			}
+
+		}
 
 	}
-
-	}
-
-	}
-return (letters);
+	return (letters);
 }
 
