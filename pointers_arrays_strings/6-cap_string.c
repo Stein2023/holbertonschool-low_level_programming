@@ -12,7 +12,7 @@ char *cap_string(char *entry)
 {
 	int index, count;
 	char chars[] = {' ', ',', ';', '.', '!', '?', '"', '(', ')', '{', '}', '\t', '\n', '\0'};
-	int conversion
+	int conversion;
 	conversion = 32;
 
 	for (index = 0; entry[index] != '\0'; index++)
