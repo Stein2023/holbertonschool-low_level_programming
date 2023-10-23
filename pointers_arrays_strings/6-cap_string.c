@@ -25,7 +25,7 @@ char *cap_string(char *entry)
 		{
 			if (chars[count] == entry[index])
 			{
-				conversion = 32;
+
 				break;
 			}
 		}
