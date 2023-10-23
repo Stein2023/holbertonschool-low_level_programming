@@ -2,25 +2,46 @@
 
 /**
  * string_toupper - the function
- * @this: the pointer
+ * @str: Pointer to the input string
  *
- * Return: change lowercasee letters to uppercase
+ * Return: Pointer to the modiffied string
  */
 
-char *string_toupper(char *)
-{
+/**
+ * string_toupper - Converts all lowercase letters of a string to uppercase.
+ * @str: Pointer to the input string.
+ *
+ * Return: Pointer to the modified string (same as input string).
+ */
 
-int index = 0;
-	int desp = 'a' - 'A';
 
-	for (index = 0; this[index] != '\0'; ++index)
-	{
-		if (this[index] >= 'a' && this[index] <= 'z')
-		{
-			this[index] = this[index] - desp;
-		}
+/**
+ * string_toupper - Converts all lowercase letters of a string to uppercase.
+ * @str: Pointer to the input string.
+ *
+ * Return: Pointer to the modified string (same as input string).
+ */
+
+
+/**
+ * string_toupper - Converts all lowercase letters of a string to uppercase.
+ * @str: Pointer to the input string.
+ *
+ * Return: Pointer to the modified string (same as input string).
+ */
+
+char *string_toupper(char *str) {
+	int i = 0;
+
+	while (str[i] != '\0') {
+
+	if (str[i] >= 'a' && str[i] <= 'z') {
+
+	str[i] = str[i] - 'a' + 'A';
 	}
-	return (this);
+	i++;
+	}
 
-
+	return str;
 }
+
