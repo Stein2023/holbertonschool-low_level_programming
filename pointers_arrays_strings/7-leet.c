@@ -15,9 +15,11 @@ char lookup[11] = {'a', 'A', 'e', 'E', 'o', 'O', 't', 'T', 'l', 'L'};
 
 char rep[11] = {'4', '4', '3', '3', '0', '0', '7', '7', '1', '1'};
 
-	for (int i = 0; letters[i] != '\0'; i++)
+int i;
+int j;
+	for (i = 0; letters[i] != '\0'; i++)
 	{
-		for (int j = 0; j < 10; ++j)
+		for (j = 0; j < 10; ++j)
 
 	{
 		if (letters[i] == lookup[j])
