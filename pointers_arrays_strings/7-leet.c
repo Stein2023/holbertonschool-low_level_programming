@@ -19,10 +19,11 @@ int i;
 int j;
 	for (i = 0; letters[i] != '\0'; i++)
 	{
-		for (j = 0; j < 10; ++j)
 
-			{
-				if (letters[i] == lookup[j])
+	for (j = 0; j < 10; ++j)
+
+		{
+			if (letters[i] == lookup[j])
 
 
 	{
@@ -33,8 +34,8 @@ int j;
 	}
 
 	}
-	
-	}	
+
+	}
 return (letters);
 }
 
