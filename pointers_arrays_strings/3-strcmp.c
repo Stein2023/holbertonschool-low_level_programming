@@ -5,7 +5,8 @@
  * @s1: This is the input string
  * @s2: This is the input string
  *
- * Return: If the strings are equals return "0", if not return other number
+ *
+ * Return: If the strings are equals return "0",
  */
 
 int _strcmp(char *s1, char *s2)
