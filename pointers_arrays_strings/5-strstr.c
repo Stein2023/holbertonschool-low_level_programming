@@ -28,17 +28,12 @@ for (i = 0; needle[i]; i++)
 {
 	if (haystack[i] != needle[i])
 		break;
-
+}
 	if (i != s)
-	haystack++;
-
-	else
-
 		return (haystack);
 
+		haystack++;
 }
 
-	return ('\0');
-
-}
+return ('\0');
 }
