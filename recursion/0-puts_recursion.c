@@ -9,7 +9,7 @@
 void _puts_recursion(char *s)
 {
 
-s = "the string";
+s = " ";
 
 printf("%s\n", s);
 
