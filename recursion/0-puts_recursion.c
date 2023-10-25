@@ -9,9 +9,10 @@
 void _puts_recursion(char *s)
 {
 
+s = "the string";
 
-puts("this line");
+printf("%s\n", s);
 
-("\n");
+
 
 }
