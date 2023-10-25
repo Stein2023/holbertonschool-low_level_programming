@@ -23,6 +23,6 @@ int sum2 = 0;
 	sum2 += *(a + i * size + (size - 1 - i));
 	}
 
-	printf("%d\t%d\n", sum1, sum2);	
+	printf("%d\t%d\n", sum1, sum2);
 
 }
