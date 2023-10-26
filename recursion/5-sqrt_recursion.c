@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * _sqrt_recursion
+ * _sqrt_recursion - The function
  * @n: the parameter
  * @root: second parameter
  *
