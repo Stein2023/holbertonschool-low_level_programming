@@ -3,31 +3,22 @@
 
 /**
  * _sqrt_recursion - The function
- * @n: the parameter
- * @root: second parameter
+ * @a: the parameter
+ * @b: the second paramater
  *
  *
  * Return: The natural square root of a number
  */
 
-int _sqrt_recursion(int n, int root)
+int _sqrt_recursion(int a, int b)
 {
 
-	if (root * root == n)
-	{
-		return (root);
-	}
-
-	else if (root * root > n)
-	{
+	if (a == (b * b))
+		return (b);
+	else if ((b * b) >= a)
 		return (-1);
-
-	}
-
 	else
-	{
-		return (_sqrt_recursion(n, root + 1));
-	}
-
-
+		return (_sqrt_recursion(a, b + 1));
 }
+
+
