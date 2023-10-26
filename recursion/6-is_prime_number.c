@@ -3,7 +3,7 @@
 
 /**
  * is_prime_number - the function
- * @prime - the parameter
+ * @prime: The parameter
  *
  *
  * Return: return 1 if the integer is prime otherwise return 0
