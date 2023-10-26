@@ -13,11 +13,11 @@
 int main(int argc, char *argv[])
 {
 
-int c;
-for (c = 0; c < argc; c++)
-	printf("argv[%2d]: %s\n", c, argv[c]);
+int i;
+	for (i = 0; i < argc; i++)
+	{
 
-return (0);
-
-
+	printf("%s ", argv[i]);
+	}
+	printf("\n");
 }
