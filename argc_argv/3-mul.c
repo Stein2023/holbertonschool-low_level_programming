@@ -17,6 +17,9 @@ int a, b, sum;
 
 sum = a * b;
 
+(void) argc;
+(void) argv;
+
 	if (a * b)
 	{
 		printf("%d\n", sum);
