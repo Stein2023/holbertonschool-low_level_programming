@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
  * main - the function
@@ -12,26 +13,18 @@
 
 int main(int argc, char *argv[])
 {
-
-int a, b, sum;
-
-sum = a * b;
-
-(void) argc;
-(void) argv;
-
-	if (a * b)
+	if (argc != 3)
 	{
-		printf("%d\n", sum);
+	printf("Error\n");
+	return (1);
 	}
 
-	else
-	{
-		printf("Error");
-		putchar('\n');
-		return (1);
-	}
+	int a, b, sum;
 
+	a = atoi(argv[1]);
+	b = atoi(argv[2]);
+	sum = a * b;
 
-
+	printf("%d\n", sum);
+	return (0);
 }
