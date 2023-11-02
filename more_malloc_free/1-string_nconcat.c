@@ -37,7 +37,7 @@ char *result;
 
 	strcpy(result, s1);
 	strncat(result, s2, n);
-	
+
 	return (result);
 
 }
