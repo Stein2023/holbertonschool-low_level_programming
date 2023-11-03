@@ -37,5 +37,5 @@ int arr;
 		arr++;
 	}
 	return (ptr);
-	
+
 }
