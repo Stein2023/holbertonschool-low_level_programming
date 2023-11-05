@@ -1,6 +1,6 @@
 #include <stdio.h>
 
 int main() {
-    printf(__FILE__);
+    printf(2-main.c);
     return 0;
 }
