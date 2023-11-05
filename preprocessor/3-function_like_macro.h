@@ -2,7 +2,7 @@
 #define FUNCTION_LIKE_MACRO_H
 
 /*
- * Description: a function-like macro ABS(x) that computes the absolute value of a number x
+ * Description: a function-like macro ABS(x)
  */
 
 #define ABS(x) ((x) < 0 ? (-x) : (x))
