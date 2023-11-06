@@ -1,19 +1,23 @@
-#ifndef STRUCT_DOG_H
-#define STRUCT_DOG_H
-
+#ifndef DOG_H
+#define DOG_H
 /**
- * init_dog - the function name
- * struct dog - the struct name
- * @name: the name
- * @age: the age
- * @owner: the owner
- * @d: is a letter
+ * struct dog - dog data
+ * @name: name of the dog
+ * @age: age of the dog
+ * @owner: name of the owner of the dog
  *
- * Return a variable of type struct dog
+ * Description: Defines metadata about the dog and type of dog's struct
  */
-
-void init_dog(struct dog *d, char *name, float age, char *owner)
+typedef struct dog
 {
-struct dog my_dog;
-}
+	char *name;
+	float age;
+	char *owner;
+} dog_t;
+/* Additional function prototypes */
+int _putchar(char c);
+void init_dog(struct dog *d, char *name, float age, char *owner);
+void print_dog(struct dog *d);
+dog_t *new_dog(char *name, float age, char *owner);
+void free_dog(dog_t *d);
 #endif
