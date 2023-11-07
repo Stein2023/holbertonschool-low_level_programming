@@ -16,7 +16,7 @@
 void print_dog(struct dog *d)
 {
 
-char *name;
+
 
 if (d == NULL)
 {
