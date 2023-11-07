@@ -5,7 +5,7 @@
  * @name: the name
  * @age: the age
  * @owner: the owner
- * @dog_t: new name
+ *
  *
  * Return: the features of the dog
  */
