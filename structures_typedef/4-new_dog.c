@@ -45,5 +45,5 @@ if (newdog->owner == NULL)
 newdog->age = age;
 
 return (newdog);
-free (newdog);
+free(newdog);
 }
