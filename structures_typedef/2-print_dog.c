@@ -25,7 +25,7 @@ if (d == NULL)
 if (d->name == NULL)
 {
 	printf("Name: (nil)\n");
-	printf("Age: char *\n");
+	printf("Age: 0.000000");
 	printf("Owner: (nil)\n");
 }
 
