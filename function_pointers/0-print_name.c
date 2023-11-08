@@ -2,28 +2,43 @@
 #include "function_pointers.h"
 
 /**
- * print_name - the name of the function
- * @name: the name that will be printed out
- * print - the function name
+ * print - the name of the function
+ * @name: first parameter
  *
  *
- * Return: A function that prints a name
+ * Return: Prints it a name
  */
 
 void print(char *name)
 {
-printf("Name: %s\n", name);
+	printf("Name: %s\n", name);
 }
+
+/**
+ * main - entry point of the program
+ *
+ *
+ * Return: Always 0
+ */
 
 int main(void)
 {
-char name[] = "";
-print_name(name, print);
+	char name[] = "Martin Stein";
 
-return (0);
+	print_name(name, print);
+
+	return (0);
 }
+
+/**
+ * print_name - Printing a name with a function pointer
+ * @name: the name
+ * @f: a parameter
+ */
 
 void print_name(char *name, void (*f)(char *))
 {
+
 	(*f)(name);
 }
+
