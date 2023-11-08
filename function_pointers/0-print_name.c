@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "function_pointers.h"
 #ifndef POINTERS_H
-#define POINTER_H
+#define POINTERS_H
 /**
  * print_name - Print a name for a fuction for pointer
  * @name: char string
