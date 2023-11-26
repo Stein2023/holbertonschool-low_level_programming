@@ -20,7 +20,7 @@ size_t counter;
 for (counter = 0; h; counter++)
 {
 	h = h->next;
-}	
+}
 	return (counter);
 }
 
