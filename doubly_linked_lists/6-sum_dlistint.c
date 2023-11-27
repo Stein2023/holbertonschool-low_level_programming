@@ -17,7 +17,7 @@ int sum_dlistint(dlistint_t *head)
 {
 
 int sum;
-dlisint_t *present;
+dlistint_t *present;
 
 sum = 0;
 present	= head;
